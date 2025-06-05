@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Optimizer</title>
+    <link rel="stylesheet" href="srvc_style.css">
+   
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Logistics Optimizer</h1>
+        <p>Efficient logistics solutions at your fingertips</p>
+    </header>
+
+    <section class="features">
+        <div class="feature" onclick="redirectTo('APIIntegration/route.html')">
+            <h3>Route Optimization</h3>
+            <p>Find the shortest and fastest delivery routes with AI.</p>
+        </div>
+        <div class="feature" onclick="redirectTo('tracking.html')">
+            <h3>Real-Time Tracking</h3>
+            <p>Track your deliveries live on a map with precision.</p>
+        </div>
+        <div class="feature" onclick="redirectTo('forecast.html')">
+            <h3>Demand Forecasting</h3>
+            <p>Predict future trends to manage inventory better.</p>
+        </div>
+    </section>
+
+    
+
+    <section class="cta">
+        <h2>Stay Updated</h2>
+        <p>Enable notifications to never miss an update about your logistics operations.</p>
+        <button onclick="notifyUser()">Enable Notifications</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 <span>Logistics Optimizer</span>. All Rights Reserved.</p>
+    </footer>
+
+    <div class="chatbot" onclick="toggleChat()">
+        <span class="chatbot-icon">💬</span>
+    </div>
+
+    <div id="chatbox">
+        <header>Chat with Us</header>
+        <div class="messages"></div>
+        <input type="text" placeholder="Type your message..." onkeypress="sendMessage(event)">
+    </div>
+
+    <script>
+        function notifyUser() {
+            alert("Notifications Enabled! You'll stay updated about the latest logistics operations.");
+        }
+
+        function toggleChat() {
+            const chatbox = document.getElementById("chatbox");
+            if (chatbox.style.display === "none" || chatbox.style.display === "") {
+                chatbox.style.display = "block";
+            } else {
+                chatbox.style.display = "none";
+            }
+        }
+
+        function sendMessage(event) {
+            if (event.key === "Enter") {
+                const input = event.target;
+                const messages = document.querySelector("#chatbox .messages");
+                const userMessage = document.createElement("div");
+                userMessage.textContent = input.value;
+                userMessage.style.marginBottom = "10px";
+                userMessage.style.color = "#333333";
+                messages.appendChild(userMessage);
+                input.value = "";
+                messages.scrollTop = messages.scrollHeight;
+
+                // Add bot response (for demo purposes)
+                const botMessage = document.createElement("div");
+                botMessage.textContent = "Thank you for your message. We'll get back to you soon.";
+                botMessage.style.marginBottom = "10px";
+                botMessage.style.color = "#007bff";
+                messages.appendChild(botMessage);
+                messages.scrollTop = messages.scrollHeight;
+            }
+        }
+
+        function displayTime() {
+            const now = new Date();
+            document.querySelector("header p").textContent = `Efficient logistics solutions at your fingertips | ${now.toLocaleTimeString()}`;
+        }
+
+        setInterval(displayTime, 1000);
+    </script>
+</body>
+
+</html>
