@@ -49,7 +49,7 @@ All pages are fully **interlinked** using relative paths and minimal JavaScript 
 
 ## 📸 UI Preview
 
-![image](https://github.com/user-attachments/assets/a46614a8-b851-4f40-a3f3-9aaba5ec40e5)
+![alt text](image.png)
 
 ---
 
