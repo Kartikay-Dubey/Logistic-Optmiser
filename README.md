@@ -35,7 +35,7 @@ All pages are fully **interlinked** using relative paths and minimal JavaScript 
 
 ## 🚀 Live Demo
 
-🌐 [Click here to visit the live site]([https://kartikay-dubey.github.io/Sail-Site-Clone/](https://kartikay-dubey.github.io/Logistic-Optmiser/))
+🌐 [Click here to visit the live site](https://kartikay-dubey.github.io/Logistic-Optmiser/)
 
 ---
 
