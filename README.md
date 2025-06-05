@@ -58,8 +58,9 @@ All pages are fully **interlinked** using relative paths and minimal JavaScript 
 Drop a ⭐ if this helped or inspired you.  
 Feel free to fork, contribute, or share feedback!
 
-📧 Contact
+## 📧 Contact
+
 If you'd like to collaborate or have any feedback, feel free to connect!
 
-🔗 GitHub Profile
+🔗 [GitHub Profile](https://github.com/Kartikay-Dubey)
 
