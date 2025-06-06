@@ -13,6 +13,12 @@ The project features interactive buttons, linked pages, and a responsive layout 
 
 ---
 
+## 🚀 Live Demo
+
+🌐 [Click here to visit the live site](https://kartikay-dubey.github.io/Logistic-Optmiser/)
+
+---
+
 ## 📄 Pages Included
 
 - 🏠 **Home Page** – Hero section with CTAs like "Learn More" and "View Services", a short About section  
@@ -33,12 +39,6 @@ All pages are fully **interlinked** using relative paths and minimal JavaScript 
 
 ---
 
-## 🚀 Live Demo
-
-🌐 [Click here to visit the live site](https://kartikay-dubey.github.io/Logistic-Optmiser/)
-
----
-
 ## 🌟 Tech Stack
 
 - **HTML5**  
@@ -53,14 +53,11 @@ All pages are fully **interlinked** using relative paths and minimal JavaScript 
 
 ---
 
-## ⭐ Like this project?
+## 📧 Contact & Support
 
-Drop a ⭐ if this helped or inspired you.  
-Feel free to fork, contribute, or share feedback!
+If you liked this project, feel free to drop a ⭐ — it really motivates!  <br>
+Have any suggestions, want to collaborate, or just say hi? I'd love to connect:
 
-## 📧 Contact
+🔗 [GitHub Profile – Kartikay Dubey](https://github.com/Kartikay-Dubey)
 
-If you'd like to collaborate or have any feedback, feel free to connect!
-
-🔗 [GitHub Profile](https://github.com/Kartikay-Dubey)
 
